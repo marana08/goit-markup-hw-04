@@ -178,8 +178,12 @@ img{
 /*effective solutions for your business*/
 
 .hero{
-  background: var(--navy-blue-color);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
   padding: 188px 0;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
 }
 
 .hero-title{
@@ -209,6 +213,9 @@ img{
   cursor: pointer;
   margin: 0 auto; 
   margin-top: 48px;
+  transition-property: background-color ;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
