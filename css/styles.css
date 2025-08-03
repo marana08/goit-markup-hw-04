@@ -574,7 +574,3 @@ img {
 .footer-icon-link:focus {
   background-color: var(--green-color);
 }
-
-.footer-icons {
-  fill: var(--cloud-color);
-}
