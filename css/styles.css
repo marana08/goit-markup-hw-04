@@ -491,13 +491,18 @@ img {
 
 /*footer*/
 
-.footer-box {
-  margin-right: 120px;
+.footer {
+  background-color: var(--navy-blue-color);
+  padding: 100px 0;
 }
 
-.footer {
-  background: var(--navy-blue-color);
-  padding: 100px 0;
+.footer-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-box {
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -508,13 +513,8 @@ img {
   text-transform: uppercase;
   color: var(--iris-color);
   font-family: var(--second-family);
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 0px;
-  margin-bottom: 16px;
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-accent {
@@ -536,9 +536,8 @@ img {
   max-width: 264px;
 }
 
-.footer-wrapper {
-  display: flex;
-  align-items: baseline;
+.footer-social {
+  /* контейнер для соцмереж */
 }
 
 .footer-social-text {
